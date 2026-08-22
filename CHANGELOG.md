@@ -10,3 +10,7 @@ later run shows they were based on data that turned out to be wrong.
 ## 2026-08 — snapshot taken 2026-08-22T18:37:20.837Z
 
 First snapshot — no previous month to compare against.
+
+## 2026-08 — snapshot taken 2026-08-22T19:26:35.992Z
+
+First snapshot — no previous month to compare against.
