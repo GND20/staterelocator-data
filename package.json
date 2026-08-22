@@ -1,0 +1,14 @@
+{
+  "name": "staterelocator-data",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Monthly snapshots of StateRelocator's data inputs and computed outputs",
+  "scripts": {
+    "snapshot": "node scripts/snapshot.mjs",
+    "test": "node --test \"scripts/**/*.test.mjs\""
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@staterelocator/calc-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "US tax + cost-of-living engine (2026 tax year). Pure ES module, no build step, no dependencies.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./data/*.js": "./data/*.js",
+    "./data/*.json": "./data/*.json"
+  },
+  "files": [
+    "index.js",
+    "data"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\""
+  }
+}
