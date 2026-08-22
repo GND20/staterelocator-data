@@ -1,0 +1,77 @@
+name: Snapshot
+
+# 06:00 UTC on the 2nd of each month. The 2nd rather than the 1st so that any
+# data updated "at the start of the month" upstream has landed, and 06:00 UTC
+# to sit outside GitHub's busiest scheduling window (queued cron runs can be
+# delayed by many minutes on the hour).
+on:
+  schedule:
+    - cron: '0 6 2 * *'
+  workflow_dispatch:
+
+# Needed to push the snapshot commit back to the default branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # No dependencies to install — the engine is vendored. Run the suite
+      # first so a broken engine fails loudly instead of committing bad data.
+      - name: Run tests
+        run: npm test
+
+      - name: Generate snapshot
+        id: snapshot
+        run: node scripts/snapshot.mjs
+
+      - name: Commit and push
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            # Should not happen: meta.json carries a fresh timestamp every run.
+            # If it does, something upstream is wrong — say so, do not fail.
+            echo "::warning::Nothing to commit. meta.json should always differ; check the snapshot step."
+            echo 'committed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m 'Snapshot ${{ steps.snapshot.outputs.month }}'
+          git push
+          echo 'committed=true' >> "$GITHUB_OUTPUT"
+
+      # Success ping. Optional by design: the repo works before the check
+      # exists, and a monitoring outage must not fail an otherwise good run.
+      - name: Ping healthchecks.io
+        if: steps.commit.outcome == 'success'
+        env:
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
+        run: |
+          set -euo pipefail
+          if [ -z "${HEALTHCHECK_URL:-}" ]; then
+            echo 'HEALTHCHECK_URL secret is not set — skipping ping.'
+            exit 0
+          fi
+          if curl -fsS -m 10 --retry 3 "$HEALTHCHECK_URL" > /dev/null; then
+            echo 'Pinged healthchecks.io.'
+          else
+            echo '::warning::Healthcheck ping failed. The snapshot itself succeeded.'
+          fi

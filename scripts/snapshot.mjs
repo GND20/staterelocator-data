@@ -306,4 +306,24 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   console.log(result.previousMonth
     ? `  vs ${result.previousMonth}: ${result.changes.length} input change(s)`
     : '  first snapshot — nothing to diff against');
+
+  // Hand the month to the workflow so the commit message uses the same clock
+  // the snapshot did, rather than a second `date` call that could land on the
+  // other side of a month boundary.
+  if (process.env.GITHUB_OUTPUT) {
+    appendFileSync(process.env.GITHUB_OUTPUT, `month=${result.month}\nchanges=${result.changes.length}\n`);
+  }
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const lines = [
+      `### Snapshot ${result.month}`,
+      '',
+      `- engine \`${result.meta.engine_version.slice(0, 7)}\``,
+      `- ${result.meta.row_count} rows across ${result.meta.state_count} states`,
+      result.previousMonth
+        ? `- ${result.changes.length} input change(s) vs ${result.previousMonth}`
+        : '- first snapshot, nothing to diff against',
+      '',
+    ];
+    appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n'));
+  }
 }
