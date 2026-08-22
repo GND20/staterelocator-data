@@ -1,0 +1,1499 @@
+{
+  "schema_version": 1,
+  "salary_points": [
+    50000,
+    75000,
+    100000,
+    150000
+  ],
+  "by_salary": {
+    "50000": {
+      "salary_annual": 50000,
+      "salary_monthly": 4167,
+      "disposable_monthly": {
+        "min": 772,
+        "median": 1702,
+        "max": 2198,
+        "spread": 1426
+      },
+      "best_state": {
+        "state": "WV",
+        "name": "West Virginia",
+        "disposable_monthly": 2198
+      },
+      "worst_state": {
+        "state": "HI",
+        "name": "Hawaii",
+        "disposable_monthly": 772
+      },
+      "ranking": [
+        {
+          "rank": 1,
+          "state": "WV",
+          "name": "West Virginia",
+          "disposable_monthly": 2198,
+          "disposable_annual": 26374
+        },
+        {
+          "rank": 2,
+          "state": "ND",
+          "name": "North Dakota",
+          "disposable_monthly": 2192,
+          "disposable_annual": 26299
+        },
+        {
+          "rank": 3,
+          "state": "SD",
+          "name": "South Dakota",
+          "disposable_monthly": 2183,
+          "disposable_annual": 26191
+        },
+        {
+          "rank": 4,
+          "state": "WY",
+          "name": "Wyoming",
+          "disposable_monthly": 2170,
+          "disposable_annual": 26035
+        },
+        {
+          "rank": 5,
+          "state": "IA",
+          "name": "Iowa",
+          "disposable_monthly": 2109,
+          "disposable_annual": 25311
+        },
+        {
+          "rank": 6,
+          "state": "MS",
+          "name": "Mississippi",
+          "disposable_monthly": 2106,
+          "disposable_annual": 25271
+        },
+        {
+          "rank": 7,
+          "state": "AR",
+          "name": "Arkansas",
+          "disposable_monthly": 2065,
+          "disposable_annual": 24785
+        },
+        {
+          "rank": 8,
+          "state": "KY",
+          "name": "Kentucky",
+          "disposable_monthly": 2058,
+          "disposable_annual": 24691
+        },
+        {
+          "rank": 9,
+          "state": "OH",
+          "name": "Ohio",
+          "disposable_monthly": 2038,
+          "disposable_annual": 24458
+        },
+        {
+          "rank": 10,
+          "state": "LA",
+          "name": "Louisiana",
+          "disposable_monthly": 2025,
+          "disposable_annual": 24297
+        },
+        {
+          "rank": 11,
+          "state": "OK",
+          "name": "Oklahoma",
+          "disposable_monthly": 1999,
+          "disposable_annual": 23983
+        },
+        {
+          "rank": 12,
+          "state": "MO",
+          "name": "Missouri",
+          "disposable_monthly": 1997,
+          "disposable_annual": 23962
+        },
+        {
+          "rank": 13,
+          "state": "NM",
+          "name": "New Mexico",
+          "disposable_monthly": 1966,
+          "disposable_annual": 23591
+        },
+        {
+          "rank": 14,
+          "state": "IN",
+          "name": "Indiana",
+          "disposable_monthly": 1963,
+          "disposable_annual": 23558
+        },
+        {
+          "rank": 15,
+          "state": "NE",
+          "name": "Nebraska",
+          "disposable_monthly": 1949,
+          "disposable_annual": 23384
+        },
+        {
+          "rank": 16,
+          "state": "KS",
+          "name": "Kansas",
+          "disposable_monthly": 1947,
+          "disposable_annual": 23361
+        },
+        {
+          "rank": 17,
+          "state": "AL",
+          "name": "Alabama",
+          "disposable_monthly": 1910,
+          "disposable_annual": 22920
+        },
+        {
+          "rank": 18,
+          "state": "WI",
+          "name": "Wisconsin",
+          "disposable_monthly": 1905,
+          "disposable_annual": 22857
+        },
+        {
+          "rank": 19,
+          "state": "TN",
+          "name": "Tennessee",
+          "disposable_monthly": 1888,
+          "disposable_annual": 22651
+        },
+        {
+          "rank": 20,
+          "state": "MI",
+          "name": "Michigan",
+          "disposable_monthly": 1847,
+          "disposable_annual": 22169
+        },
+        {
+          "rank": 21,
+          "state": "MT",
+          "name": "Montana",
+          "disposable_monthly": 1842,
+          "disposable_annual": 22102
+        },
+        {
+          "rank": 22,
+          "state": "PA",
+          "name": "Pennsylvania",
+          "disposable_monthly": 1765,
+          "disposable_annual": 21176
+        },
+        {
+          "rank": 23,
+          "state": "SC",
+          "name": "South Carolina",
+          "disposable_monthly": 1752,
+          "disposable_annual": 21024
+        },
+        {
+          "rank": 24,
+          "state": "NC",
+          "name": "North Carolina",
+          "disposable_monthly": 1710,
+          "disposable_annual": 20517
+        },
+        {
+          "rank": 25,
+          "state": "MN",
+          "name": "Minnesota",
+          "disposable_monthly": 1704,
+          "disposable_annual": 20450
+        },
+        {
+          "rank": 26,
+          "state": "ME",
+          "name": "Maine",
+          "disposable_monthly": 1699,
+          "disposable_annual": 20388
+        },
+        {
+          "rank": 27,
+          "state": "TX",
+          "name": "Texas",
+          "disposable_monthly": 1683,
+          "disposable_annual": 20191
+        },
+        {
+          "rank": 28,
+          "state": "VT",
+          "name": "Vermont",
+          "disposable_monthly": 1674,
+          "disposable_annual": 20092
+        },
+        {
+          "rank": 29,
+          "state": "ID",
+          "name": "Idaho",
+          "disposable_monthly": 1659,
+          "disposable_annual": 19909
+        },
+        {
+          "rank": 30,
+          "state": "IL",
+          "name": "Illinois",
+          "disposable_monthly": 1621,
+          "disposable_annual": 19457
+        },
+        {
+          "rank": 31,
+          "state": "AK",
+          "name": "Alaska",
+          "disposable_monthly": 1568,
+          "disposable_annual": 18811
+        },
+        {
+          "rank": 32,
+          "state": "NH",
+          "name": "New Hampshire",
+          "disposable_monthly": 1544,
+          "disposable_annual": 18523
+        },
+        {
+          "rank": 33,
+          "state": "RI",
+          "name": "Rhode Island",
+          "disposable_monthly": 1508,
+          "disposable_annual": 18098
+        },
+        {
+          "rank": 34,
+          "state": "GA",
+          "name": "Georgia",
+          "disposable_monthly": 1497,
+          "disposable_annual": 17967
+        },
+        {
+          "rank": 35,
+          "state": "NV",
+          "name": "Nevada",
+          "disposable_monthly": 1446,
+          "disposable_annual": 17347
+        },
+        {
+          "rank": 36,
+          "state": "DE",
+          "name": "Delaware",
+          "disposable_monthly": 1418,
+          "disposable_annual": 17011
+        },
+        {
+          "rank": 37,
+          "state": "AZ",
+          "name": "Arizona",
+          "disposable_monthly": 1400,
+          "disposable_annual": 16798
+        },
+        {
+          "rank": 38,
+          "state": "UT",
+          "name": "Utah",
+          "disposable_monthly": 1377,
+          "disposable_annual": 16525
+        },
+        {
+          "rank": 39,
+          "state": "CT",
+          "name": "Connecticut",
+          "disposable_monthly": 1368,
+          "disposable_annual": 16415
+        },
+        {
+          "rank": 40,
+          "state": "FL",
+          "name": "Florida",
+          "disposable_monthly": 1343,
+          "disposable_annual": 16111
+        },
+        {
+          "rank": 41,
+          "state": "VA",
+          "name": "Virginia",
+          "disposable_monthly": 1314,
+          "disposable_annual": 15766
+        },
+        {
+          "rank": 42,
+          "state": "WA",
+          "name": "Washington",
+          "disposable_monthly": 1244,
+          "disposable_annual": 14928
+        },
+        {
+          "rank": 43,
+          "state": "NY",
+          "name": "New York",
+          "disposable_monthly": 1240,
+          "disposable_annual": 14877
+        },
+        {
+          "rank": 44,
+          "state": "MD",
+          "name": "Maryland",
+          "disposable_monthly": 1213,
+          "disposable_annual": 14556
+        },
+        {
+          "rank": 45,
+          "state": "CO",
+          "name": "Colorado",
+          "disposable_monthly": 1185,
+          "disposable_annual": 14223
+        },
+        {
+          "rank": 46,
+          "state": "NJ",
+          "name": "New Jersey",
+          "disposable_monthly": 1165,
+          "disposable_annual": 13979
+        },
+        {
+          "rank": 47,
+          "state": "MA",
+          "name": "Massachusetts",
+          "disposable_monthly": 1034,
+          "disposable_annual": 12403
+        },
+        {
+          "rank": 48,
+          "state": "OR",
+          "name": "Oregon",
+          "disposable_monthly": 1015,
+          "disposable_annual": 12178
+        },
+        {
+          "rank": 49,
+          "state": "CA",
+          "name": "California",
+          "disposable_monthly": 819,
+          "disposable_annual": 9831
+        },
+        {
+          "rank": 50,
+          "state": "HI",
+          "name": "Hawaii",
+          "disposable_monthly": 772,
+          "disposable_annual": 9259
+        }
+      ]
+    },
+    "75000": {
+      "salary_annual": 75000,
+      "salary_monthly": 6250,
+      "disposable_monthly": {
+        "min": 2207,
+        "median": 3201,
+        "max": 3786,
+        "spread": 1579
+      },
+      "best_state": {
+        "state": "SD",
+        "name": "South Dakota",
+        "disposable_monthly": 3786
+      },
+      "worst_state": {
+        "state": "HI",
+        "name": "Hawaii",
+        "disposable_monthly": 2207
+      },
+      "ranking": [
+        {
+          "rank": 1,
+          "state": "SD",
+          "name": "South Dakota",
+          "disposable_monthly": 3786,
+          "disposable_annual": 45429
+        },
+        {
+          "rank": 2,
+          "state": "ND",
+          "name": "North Dakota",
+          "disposable_monthly": 3778,
+          "disposable_annual": 45333
+        },
+        {
+          "rank": 3,
+          "state": "WY",
+          "name": "Wyoming",
+          "disposable_monthly": 3773,
+          "disposable_annual": 45273
+        },
+        {
+          "rank": 4,
+          "state": "WV",
+          "name": "West Virginia",
+          "disposable_monthly": 3704,
+          "disposable_annual": 44452
+        },
+        {
+          "rank": 5,
+          "state": "IA",
+          "name": "Iowa",
+          "disposable_monthly": 3633,
+          "disposable_annual": 43598
+        },
+        {
+          "rank": 6,
+          "state": "MS",
+          "name": "Mississippi",
+          "disposable_monthly": 3626,
+          "disposable_annual": 43509
+        },
+        {
+          "rank": 7,
+          "state": "KY",
+          "name": "Kentucky",
+          "disposable_monthly": 3588,
+          "disposable_annual": 43053
+        },
+        {
+          "rank": 8,
+          "state": "AR",
+          "name": "Arkansas",
+          "disposable_monthly": 3587,
+          "disposable_annual": 43047
+        },
+        {
+          "rank": 9,
+          "state": "OH",
+          "name": "Ohio",
+          "disposable_monthly": 3584,
+          "disposable_annual": 43008
+        },
+        {
+          "rank": 10,
+          "state": "LA",
+          "name": "Louisiana",
+          "disposable_monthly": 3565,
+          "disposable_annual": 42785
+        },
+        {
+          "rank": 11,
+          "state": "OK",
+          "name": "Oklahoma",
+          "disposable_monthly": 3508,
+          "disposable_annual": 42095
+        },
+        {
+          "rank": 12,
+          "state": "IN",
+          "name": "Indiana",
+          "disposable_monthly": 3505,
+          "disposable_annual": 42058
+        },
+        {
+          "rank": 13,
+          "state": "MO",
+          "name": "Missouri",
+          "disposable_monthly": 3502,
+          "disposable_annual": 42025
+        },
+        {
+          "rank": 14,
+          "state": "TN",
+          "name": "Tennessee",
+          "disposable_monthly": 3491,
+          "disposable_annual": 41889
+        },
+        {
+          "rank": 15,
+          "state": "NM",
+          "name": "New Mexico",
+          "disposable_monthly": 3471,
+          "disposable_annual": 41653
+        },
+        {
+          "rank": 16,
+          "state": "NE",
+          "name": "Nebraska",
+          "disposable_monthly": 3457,
+          "disposable_annual": 41484
+        },
+        {
+          "rank": 17,
+          "state": "KS",
+          "name": "Kansas",
+          "disposable_monthly": 3434,
+          "disposable_annual": 41203
+        },
+        {
+          "rank": 18,
+          "state": "WI",
+          "name": "Wisconsin",
+          "disposable_monthly": 3409,
+          "disposable_annual": 40913
+        },
+        {
+          "rank": 19,
+          "state": "AL",
+          "name": "Alabama",
+          "disposable_monthly": 3409,
+          "disposable_annual": 40908
+        },
+        {
+          "rank": 20,
+          "state": "MI",
+          "name": "Michigan",
+          "disposable_monthly": 3362,
+          "disposable_annual": 40344
+        },
+        {
+          "rank": 21,
+          "state": "MT",
+          "name": "Montana",
+          "disposable_monthly": 3338,
+          "disposable_annual": 40056
+        },
+        {
+          "rank": 22,
+          "state": "PA",
+          "name": "Pennsylvania",
+          "disposable_monthly": 3304,
+          "disposable_annual": 39646
+        },
+        {
+          "rank": 23,
+          "state": "TX",
+          "name": "Texas",
+          "disposable_monthly": 3286,
+          "disposable_annual": 39429
+        },
+        {
+          "rank": 24,
+          "state": "SC",
+          "name": "South Carolina",
+          "disposable_monthly": 3230,
+          "disposable_annual": 38762
+        },
+        {
+          "rank": 25,
+          "state": "NC",
+          "name": "North Carolina",
+          "disposable_monthly": 3230,
+          "disposable_annual": 38757
+        },
+        {
+          "rank": 26,
+          "state": "AK",
+          "name": "Alaska",
+          "disposable_monthly": 3171,
+          "disposable_annual": 38049
+        },
+        {
+          "rank": 27,
+          "state": "MN",
+          "name": "Minnesota",
+          "disposable_monthly": 3166,
+          "disposable_annual": 37988
+        },
+        {
+          "rank": 28,
+          "state": "ME",
+          "name": "Maine",
+          "disposable_monthly": 3161,
+          "disposable_annual": 37931
+        },
+        {
+          "rank": 29,
+          "state": "VT",
+          "name": "Vermont",
+          "disposable_monthly": 3159,
+          "disposable_annual": 37909
+        },
+        {
+          "rank": 30,
+          "state": "ID",
+          "name": "Idaho",
+          "disposable_monthly": 3152,
+          "disposable_annual": 37822
+        },
+        {
+          "rank": 31,
+          "state": "NH",
+          "name": "New Hampshire",
+          "disposable_monthly": 3147,
+          "disposable_annual": 37761
+        },
+        {
+          "rank": 32,
+          "state": "IL",
+          "name": "Illinois",
+          "disposable_monthly": 3121,
+          "disposable_annual": 37457
+        },
+        {
+          "rank": 33,
+          "state": "NV",
+          "name": "Nevada",
+          "disposable_monthly": 3049,
+          "disposable_annual": 36585
+        },
+        {
+          "rank": 34,
+          "state": "RI",
+          "name": "Rhode Island",
+          "disposable_monthly": 3006,
+          "disposable_annual": 36073
+        },
+        {
+          "rank": 35,
+          "state": "GA",
+          "name": "Georgia",
+          "disposable_monthly": 2992,
+          "disposable_annual": 35907
+        },
+        {
+          "rank": 36,
+          "state": "AZ",
+          "name": "Arizona",
+          "disposable_monthly": 2951,
+          "disposable_annual": 35410
+        },
+        {
+          "rank": 37,
+          "state": "FL",
+          "name": "Florida",
+          "disposable_monthly": 2946,
+          "disposable_annual": 35349
+        },
+        {
+          "rank": 38,
+          "state": "DE",
+          "name": "Delaware",
+          "disposable_monthly": 2895,
+          "disposable_annual": 34738
+        },
+        {
+          "rank": 39,
+          "state": "UT",
+          "name": "Utah",
+          "disposable_monthly": 2886,
+          "disposable_annual": 34638
+        },
+        {
+          "rank": 40,
+          "state": "CT",
+          "name": "Connecticut",
+          "disposable_monthly": 2856,
+          "disposable_annual": 34278
+        },
+        {
+          "rank": 41,
+          "state": "WA",
+          "name": "Washington",
+          "disposable_monthly": 2830,
+          "disposable_annual": 33963
+        },
+        {
+          "rank": 42,
+          "state": "VA",
+          "name": "Virginia",
+          "disposable_monthly": 2797,
+          "disposable_annual": 33566
+        },
+        {
+          "rank": 43,
+          "state": "NY",
+          "name": "New York",
+          "disposable_monthly": 2730,
+          "disposable_annual": 32764
+        },
+        {
+          "rank": 44,
+          "state": "MD",
+          "name": "Maryland",
+          "disposable_monthly": 2717,
+          "disposable_annual": 32606
+        },
+        {
+          "rank": 45,
+          "state": "CO",
+          "name": "Colorado",
+          "disposable_monthly": 2697,
+          "disposable_annual": 32361
+        },
+        {
+          "rank": 46,
+          "state": "NJ",
+          "name": "New Jersey",
+          "disposable_monthly": 2645,
+          "disposable_annual": 31741
+        },
+        {
+          "rank": 47,
+          "state": "MA",
+          "name": "Massachusetts",
+          "disposable_monthly": 2533,
+          "disposable_annual": 30391
+        },
+        {
+          "rank": 48,
+          "state": "OR",
+          "name": "Oregon",
+          "disposable_monthly": 2423,
+          "disposable_annual": 29078
+        },
+        {
+          "rank": 49,
+          "state": "CA",
+          "name": "California",
+          "disposable_monthly": 2250,
+          "disposable_annual": 27005
+        },
+        {
+          "rank": 50,
+          "state": "HI",
+          "name": "Hawaii",
+          "disposable_monthly": 2207,
+          "disposable_annual": 26481
+        }
+      ]
+    },
+    "100000": {
+      "salary_annual": 100000,
+      "salary_monthly": 8333,
+      "disposable_monthly": {
+        "min": 3499,
+        "median": 4612,
+        "max": 5251,
+        "spread": 1752
+      },
+      "best_state": {
+        "state": "SD",
+        "name": "South Dakota",
+        "disposable_monthly": 5251
+      },
+      "worst_state": {
+        "state": "CA",
+        "name": "California",
+        "disposable_monthly": 3499
+      },
+      "ranking": [
+        {
+          "rank": 1,
+          "state": "SD",
+          "name": "South Dakota",
+          "disposable_monthly": 5251,
+          "disposable_annual": 63016
+        },
+        {
+          "rank": 2,
+          "state": "WY",
+          "name": "Wyoming",
+          "disposable_monthly": 5238,
+          "disposable_annual": 62860
+        },
+        {
+          "rank": 3,
+          "state": "ND",
+          "name": "North Dakota",
+          "disposable_monthly": 5203,
+          "disposable_annual": 62433
+        },
+        {
+          "rank": 4,
+          "state": "WV",
+          "name": "West Virginia",
+          "disposable_monthly": 5070,
+          "disposable_annual": 60835
+        },
+        {
+          "rank": 5,
+          "state": "IA",
+          "name": "Iowa",
+          "disposable_monthly": 5020,
+          "disposable_annual": 60236
+        },
+        {
+          "rank": 6,
+          "state": "MS",
+          "name": "Mississippi",
+          "disposable_monthly": 5008,
+          "disposable_annual": 60096
+        },
+        {
+          "rank": 7,
+          "state": "OH",
+          "name": "Ohio",
+          "disposable_monthly": 4992,
+          "disposable_annual": 59908
+        },
+        {
+          "rank": 8,
+          "state": "KY",
+          "name": "Kentucky",
+          "disposable_monthly": 4980,
+          "disposable_annual": 59766
+        },
+        {
+          "rank": 9,
+          "state": "AR",
+          "name": "Arkansas",
+          "disposable_monthly": 4972,
+          "disposable_annual": 59660
+        },
+        {
+          "rank": 10,
+          "state": "LA",
+          "name": "Louisiana",
+          "disposable_monthly": 4969,
+          "disposable_annual": 59622
+        },
+        {
+          "rank": 11,
+          "state": "TN",
+          "name": "Tennessee",
+          "disposable_monthly": 4956,
+          "disposable_annual": 59476
+        },
+        {
+          "rank": 12,
+          "state": "IN",
+          "name": "Indiana",
+          "disposable_monthly": 4909,
+          "disposable_annual": 58908
+        },
+        {
+          "rank": 13,
+          "state": "OK",
+          "name": "Oklahoma",
+          "disposable_monthly": 4880,
+          "disposable_annual": 58558
+        },
+        {
+          "rank": 14,
+          "state": "MO",
+          "name": "Missouri",
+          "disposable_monthly": 4870,
+          "disposable_annual": 58437
+        },
+        {
+          "rank": 15,
+          "state": "NM",
+          "name": "New Mexico",
+          "disposable_monthly": 4836,
+          "disposable_annual": 58031
+        },
+        {
+          "rank": 16,
+          "state": "NE",
+          "name": "Nebraska",
+          "disposable_monthly": 4828,
+          "disposable_annual": 57934
+        },
+        {
+          "rank": 17,
+          "state": "KS",
+          "name": "Kansas",
+          "disposable_monthly": 4783,
+          "disposable_annual": 57396
+        },
+        {
+          "rank": 18,
+          "state": "AL",
+          "name": "Alabama",
+          "disposable_monthly": 4770,
+          "disposable_annual": 57245
+        },
+        {
+          "rank": 19,
+          "state": "WI",
+          "name": "Wisconsin",
+          "disposable_monthly": 4765,
+          "disposable_annual": 57175
+        },
+        {
+          "rank": 20,
+          "state": "TX",
+          "name": "Texas",
+          "disposable_monthly": 4751,
+          "disposable_annual": 57016
+        },
+        {
+          "rank": 21,
+          "state": "MI",
+          "name": "Michigan",
+          "disposable_monthly": 4739,
+          "disposable_annual": 56869
+        },
+        {
+          "rank": 22,
+          "state": "PA",
+          "name": "Pennsylvania",
+          "disposable_monthly": 4706,
+          "disposable_annual": 56466
+        },
+        {
+          "rank": 23,
+          "state": "MT",
+          "name": "Montana",
+          "disposable_monthly": 4686,
+          "disposable_annual": 56231
+        },
+        {
+          "rank": 24,
+          "state": "AK",
+          "name": "Alaska",
+          "disposable_monthly": 4636,
+          "disposable_annual": 55636
+        },
+        {
+          "rank": 25,
+          "state": "NH",
+          "name": "New Hampshire",
+          "disposable_monthly": 4612,
+          "disposable_annual": 55348
+        },
+        {
+          "rank": 26,
+          "state": "NC",
+          "name": "North Carolina",
+          "disposable_monthly": 4612,
+          "disposable_annual": 55347
+        },
+        {
+          "rank": 27,
+          "state": "SC",
+          "name": "South Carolina",
+          "disposable_monthly": 4571,
+          "disposable_annual": 54849
+        },
+        {
+          "rank": 28,
+          "state": "NV",
+          "name": "Nevada",
+          "disposable_monthly": 4514,
+          "disposable_annual": 54172
+        },
+        {
+          "rank": 29,
+          "state": "ID",
+          "name": "Idaho",
+          "disposable_monthly": 4507,
+          "disposable_annual": 54084
+        },
+        {
+          "rank": 30,
+          "state": "MN",
+          "name": "Minnesota",
+          "disposable_monthly": 4490,
+          "disposable_annual": 53875
+        },
+        {
+          "rank": 31,
+          "state": "VT",
+          "name": "Vermont",
+          "disposable_monthly": 4487,
+          "disposable_annual": 53846
+        },
+        {
+          "rank": 32,
+          "state": "IL",
+          "name": "Illinois",
+          "disposable_monthly": 4484,
+          "disposable_annual": 53807
+        },
+        {
+          "rank": 33,
+          "state": "ME",
+          "name": "Maine",
+          "disposable_monthly": 4478,
+          "disposable_annual": 53731
+        },
+        {
+          "rank": 34,
+          "state": "FL",
+          "name": "Florida",
+          "disposable_monthly": 4411,
+          "disposable_annual": 52936
+        },
+        {
+          "rank": 35,
+          "state": "RI",
+          "name": "Rhode Island",
+          "disposable_monthly": 4373,
+          "disposable_annual": 52471
+        },
+        {
+          "rank": 36,
+          "state": "AZ",
+          "name": "Arizona",
+          "disposable_monthly": 4364,
+          "disposable_annual": 52373
+        },
+        {
+          "rank": 37,
+          "state": "GA",
+          "name": "Georgia",
+          "disposable_monthly": 4350,
+          "disposable_annual": 52197
+        },
+        {
+          "rank": 38,
+          "state": "WA",
+          "name": "Washington",
+          "disposable_monthly": 4279,
+          "disposable_annual": 51349
+        },
+        {
+          "rank": 39,
+          "state": "UT",
+          "name": "Utah",
+          "disposable_monthly": 4258,
+          "disposable_annual": 51100
+        },
+        {
+          "rank": 40,
+          "state": "DE",
+          "name": "Delaware",
+          "disposable_monthly": 4223,
+          "disposable_annual": 50675
+        },
+        {
+          "rank": 41,
+          "state": "CT",
+          "name": "Connecticut",
+          "disposable_monthly": 4208,
+          "disposable_annual": 50490
+        },
+        {
+          "rank": 42,
+          "state": "VA",
+          "name": "Virginia",
+          "disposable_monthly": 4143,
+          "disposable_annual": 49716
+        },
+        {
+          "rank": 43,
+          "state": "MD",
+          "name": "Maryland",
+          "disposable_monthly": 4084,
+          "disposable_annual": 49006
+        },
+        {
+          "rank": 44,
+          "state": "NY",
+          "name": "New York",
+          "disposable_monthly": 4079,
+          "disposable_annual": 48945
+        },
+        {
+          "rank": 45,
+          "state": "CO",
+          "name": "Colorado",
+          "disposable_monthly": 4071,
+          "disposable_annual": 48848
+        },
+        {
+          "rank": 46,
+          "state": "NJ",
+          "name": "New Jersey",
+          "disposable_monthly": 3971,
+          "disposable_annual": 47652
+        },
+        {
+          "rank": 47,
+          "state": "MA",
+          "name": "Massachusetts",
+          "disposable_monthly": 3894,
+          "disposable_annual": 46728
+        },
+        {
+          "rank": 48,
+          "state": "OR",
+          "name": "Oregon",
+          "disposable_monthly": 3694,
+          "disposable_annual": 44328
+        },
+        {
+          "rank": 49,
+          "state": "HI",
+          "name": "Hawaii",
+          "disposable_monthly": 3513,
+          "disposable_annual": 42153
+        },
+        {
+          "rank": 50,
+          "state": "CA",
+          "name": "California",
+          "disposable_monthly": 3499,
+          "disposable_annual": 41985
+        }
+      ]
+    },
+    "150000": {
+      "salary_annual": 150000,
+      "salary_monthly": 12500,
+      "disposable_monthly": {
+        "min": 5941,
+        "median": 7367,
+        "max": 8136,
+        "spread": 2195
+      },
+      "best_state": {
+        "state": "SD",
+        "name": "South Dakota",
+        "disposable_monthly": 8136
+      },
+      "worst_state": {
+        "state": "CA",
+        "name": "California",
+        "disposable_monthly": 5941
+      },
+      "ranking": [
+        {
+          "rank": 1,
+          "state": "SD",
+          "name": "South Dakota",
+          "disposable_monthly": 8136,
+          "disposable_annual": 97627
+        },
+        {
+          "rank": 2,
+          "state": "WY",
+          "name": "Wyoming",
+          "disposable_monthly": 8123,
+          "disposable_annual": 97471
+        },
+        {
+          "rank": 3,
+          "state": "ND",
+          "name": "North Dakota",
+          "disposable_monthly": 8006,
+          "disposable_annual": 96069
+        },
+        {
+          "rank": 4,
+          "state": "TN",
+          "name": "Tennessee",
+          "disposable_monthly": 7841,
+          "disposable_annual": 94087
+        },
+        {
+          "rank": 5,
+          "state": "OH",
+          "name": "Ohio",
+          "disposable_monthly": 7762,
+          "disposable_annual": 93144
+        },
+        {
+          "rank": 6,
+          "state": "WV",
+          "name": "West Virginia",
+          "disposable_monthly": 7753,
+          "disposable_annual": 93036
+        },
+        {
+          "rank": 7,
+          "state": "IA",
+          "name": "Iowa",
+          "disposable_monthly": 7746,
+          "disposable_annual": 92947
+        },
+        {
+          "rank": 8,
+          "state": "LA",
+          "name": "Louisiana",
+          "disposable_monthly": 7728,
+          "disposable_annual": 92733
+        },
+        {
+          "rank": 9,
+          "state": "MS",
+          "name": "Mississippi",
+          "disposable_monthly": 7726,
+          "disposable_annual": 92707
+        },
+        {
+          "rank": 10,
+          "state": "KY",
+          "name": "Kentucky",
+          "disposable_monthly": 7719,
+          "disposable_annual": 92627
+        },
+        {
+          "rank": 11,
+          "state": "AR",
+          "name": "Arkansas",
+          "disposable_monthly": 7693,
+          "disposable_annual": 92321
+        },
+        {
+          "rank": 12,
+          "state": "IN",
+          "name": "Indiana",
+          "disposable_monthly": 7670,
+          "disposable_annual": 92044
+        },
+        {
+          "rank": 13,
+          "state": "TX",
+          "name": "Texas",
+          "disposable_monthly": 7636,
+          "disposable_annual": 91627
+        },
+        {
+          "rank": 14,
+          "state": "OK",
+          "name": "Oklahoma",
+          "disposable_monthly": 7577,
+          "disposable_annual": 90919
+        },
+        {
+          "rank": 15,
+          "state": "MO",
+          "name": "Missouri",
+          "disposable_monthly": 7558,
+          "disposable_annual": 90698
+        },
+        {
+          "rank": 16,
+          "state": "NE",
+          "name": "Nebraska",
+          "disposable_monthly": 7522,
+          "disposable_annual": 90270
+        },
+        {
+          "rank": 17,
+          "state": "AK",
+          "name": "Alaska",
+          "disposable_monthly": 7521,
+          "disposable_annual": 90247
+        },
+        {
+          "rank": 18,
+          "state": "NM",
+          "name": "New Mexico",
+          "disposable_monthly": 7516,
+          "disposable_annual": 90192
+        },
+        {
+          "rank": 19,
+          "state": "NH",
+          "name": "New Hampshire",
+          "disposable_monthly": 7497,
+          "disposable_annual": 89959
+        },
+        {
+          "rank": 20,
+          "state": "PA",
+          "name": "Pennsylvania",
+          "disposable_monthly": 7462,
+          "disposable_annual": 89542
+        },
+        {
+          "rank": 21,
+          "state": "AL",
+          "name": "Alabama",
+          "disposable_monthly": 7446,
+          "disposable_annual": 89356
+        },
+        {
+          "rank": 22,
+          "state": "MI",
+          "name": "Michigan",
+          "disposable_monthly": 7446,
+          "disposable_annual": 89355
+        },
+        {
+          "rank": 23,
+          "state": "KS",
+          "name": "Kansas",
+          "disposable_monthly": 7435,
+          "disposable_annual": 89217
+        },
+        {
+          "rank": 24,
+          "state": "WI",
+          "name": "Wisconsin",
+          "disposable_monthly": 7428,
+          "disposable_annual": 89136
+        },
+        {
+          "rank": 25,
+          "state": "NV",
+          "name": "Nevada",
+          "disposable_monthly": 7399,
+          "disposable_annual": 88783
+        },
+        {
+          "rank": 26,
+          "state": "MT",
+          "name": "Montana",
+          "disposable_monthly": 7335,
+          "disposable_annual": 88017
+        },
+        {
+          "rank": 27,
+          "state": "NC",
+          "name": "North Carolina",
+          "disposable_monthly": 7330,
+          "disposable_annual": 87963
+        },
+        {
+          "rank": 28,
+          "state": "FL",
+          "name": "Florida",
+          "disposable_monthly": 7296,
+          "disposable_annual": 87547
+        },
+        {
+          "rank": 29,
+          "state": "SC",
+          "name": "South Carolina",
+          "disposable_monthly": 7205,
+          "disposable_annual": 86460
+        },
+        {
+          "rank": 30,
+          "state": "ID",
+          "name": "Idaho",
+          "disposable_monthly": 7170,
+          "disposable_annual": 86045
+        },
+        {
+          "rank": 31,
+          "state": "IL",
+          "name": "Illinois",
+          "disposable_monthly": 7162,
+          "disposable_annual": 85943
+        },
+        {
+          "rank": 32,
+          "state": "AZ",
+          "name": "Arizona",
+          "disposable_monthly": 7144,
+          "disposable_annual": 85734
+        },
+        {
+          "rank": 33,
+          "state": "WA",
+          "name": "Washington",
+          "disposable_monthly": 7130,
+          "disposable_annual": 85557
+        },
+        {
+          "rank": 34,
+          "state": "VT",
+          "name": "Vermont",
+          "disposable_monthly": 7078,
+          "disposable_annual": 84931
+        },
+        {
+          "rank": 35,
+          "state": "MN",
+          "name": "Minnesota",
+          "disposable_monthly": 7068,
+          "disposable_annual": 84821
+        },
+        {
+          "rank": 36,
+          "state": "ME",
+          "name": "Maine",
+          "disposable_monthly": 7064,
+          "disposable_annual": 84767
+        },
+        {
+          "rank": 37,
+          "state": "RI",
+          "name": "Rhode Island",
+          "disposable_monthly": 7059,
+          "disposable_annual": 84707
+        },
+        {
+          "rank": 38,
+          "state": "GA",
+          "name": "Georgia",
+          "disposable_monthly": 7018,
+          "disposable_annual": 84213
+        },
+        {
+          "rank": 39,
+          "state": "UT",
+          "name": "Utah",
+          "disposable_monthly": 6955,
+          "disposable_annual": 83461
+        },
+        {
+          "rank": 40,
+          "state": "CT",
+          "name": "Connecticut",
+          "disposable_monthly": 6842,
+          "disposable_annual": 82101
+        },
+        {
+          "rank": 41,
+          "state": "DE",
+          "name": "Delaware",
+          "disposable_monthly": 6832,
+          "disposable_annual": 81986
+        },
+        {
+          "rank": 42,
+          "state": "VA",
+          "name": "Virginia",
+          "disposable_monthly": 6788,
+          "disposable_annual": 81452
+        },
+        {
+          "rank": 43,
+          "state": "CO",
+          "name": "Colorado",
+          "disposable_monthly": 6772,
+          "disposable_annual": 81259
+        },
+        {
+          "rank": 44,
+          "state": "MD",
+          "name": "Maryland",
+          "disposable_monthly": 6757,
+          "disposable_annual": 81087
+        },
+        {
+          "rank": 45,
+          "state": "NY",
+          "name": "New York",
+          "disposable_monthly": 6717,
+          "disposable_annual": 80606
+        },
+        {
+          "rank": 46,
+          "state": "NJ",
+          "name": "New Jersey",
+          "disposable_monthly": 6574,
+          "disposable_annual": 78893
+        },
+        {
+          "rank": 47,
+          "state": "MA",
+          "name": "Massachusetts",
+          "disposable_monthly": 6570,
+          "disposable_annual": 78839
+        },
+        {
+          "rank": 48,
+          "state": "OR",
+          "name": "Oregon",
+          "disposable_monthly": 6167,
+          "disposable_annual": 74010
+        },
+        {
+          "rank": 49,
+          "state": "HI",
+          "name": "Hawaii",
+          "disposable_monthly": 6075,
+          "disposable_annual": 72902
+        },
+        {
+          "rank": 50,
+          "state": "CA",
+          "name": "California",
+          "disposable_monthly": 5941,
+          "disposable_annual": 71296
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "taxYear": 2026,
+  "filingStatus": "single",
+  "incomeTax": {
+    "standardDeduction": 16100,
+    "brackets": [
+      [0.1, 12400],
+      [0.12, 50400],
+      [0.22, 105700],
+      [0.24, 201775],
+      [0.32, 256225],
+      [0.35, 640600],
+      [0.37, null]
+    ]
+  },
+  "fica": {
+    "socialSecurityRate": 0.062,
+    "socialSecurityWageBase": 184500,
+    "medicareRate": 0.0145,
+    "additionalMedicareRate": 0.009,
+    "additionalMedicareThreshold": 200000
+  },
+  "sdi": {
+    "CA": {
+      "rate": 0.013
+    },
+    "WA": {
+      "rate": 0.00807,
+      "wageBase": 184500
+    },
+    "OR": {
+      "rate": 0.006,
+      "wageBase": 184500
+    },
+    "NJ": {
+      "rate": 0.0037,
+      "wageBase": 161400
+    },
+    "RI": {
+      "rate": 0.013,
+      "wageBase": 89200
+    },
+    "HI": {
+      "rate": 0.005,
+      "maxAnnual": 390.05
+    },
+    "NY": {
+      "rate": 0.005,
+      "maxAnnual": 31.2
+    }
+  }
+}
