@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "month": "2026-09",
+  "generated_at": "2026-09-02T10:00:02.418Z",
+  "engine_version": "da85f86f8bd4c2db94a32f7f6345c80658583861",
+  "observation_type": "observed",
+  "salary_points": [
+    50000,
+    75000,
+    100000,
+    150000
+  ],
+  "state_count": 50,
+  "row_count": 200,
+  "previous_snapshot": "2026-08"
+}
