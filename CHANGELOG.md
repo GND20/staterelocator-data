@@ -18,3 +18,7 @@ First snapshot — no previous month to compare against.
 ## 2026-09 — snapshot taken 2026-09-02T10:00:02.418Z
 
 No input changes. (Compared against 2026-08.)
+
+## 2026-10 — snapshot taken 2026-10-02T11:24:56.054Z
+
+No input changes. (Compared against 2026-09.)
